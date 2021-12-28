@@ -1,0 +1,28 @@
+{
+    "name": "Piano",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "pxt-kitronik-klef-piano": "github:kitronikltd/pxt-kitronik-klef-piano#v0.0.16",
+        "midi": "github:microsoft/pxt-midi#v2.2.0",
+        "touchbit": "github:pimoroni/pxt-touchbit#v0.0.1",
+        "piano": "github:lzty634158/YB_Piano#c1927a198044f686526cdb44ab360d0c1967f315"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
